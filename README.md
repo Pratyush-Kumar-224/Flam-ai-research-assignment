@@ -1,20 +1,20 @@
-# Flam AI Research and Development Assignment
+# AI Research and Development Assignment
 
-## 1. Final Parametric Equation
+## 1. Final Parametric Equation (Submission Format)
 
-$$\left(t*\cos(0.5242950658167742)-e^{0.030030268434586154\left|t\right|}\cdot\sin(0.3t)\sin(0.5242950658167742)\ +55.058000854189906,42+\ t*\sin(0.5242950658167742)+e^{0.030030268434586154\left|t\right|}\cdot\sin(0.3t)\cos(0.5242950658167742)\right)$$
+$$\left(t*\cos(0.524295)-e^{0.030030\left|t\right|}\cdot\sin(0.3t)\sin(0.524295)\+55.058001,42+\t*\sin(0.524295)+e^{0.030030\left|t\right|}\cdot\sin(0.3t)\cos(0.524295)\right)$$
 
 ## 2. Discovered Unknown Variables
 
-* **$\theta$:** `0.5242950658167742` (radians)
-* **M:** `0.030030268434586154`
-* **X:** `55.058000854189906`
+* **$\theta$ (theta):** `0.524295` (radians)
+* **M:** `0.030030`
+* **X:** `55.058001`
 
 ## 3. L1 Distance Score
 
-The final L1 distance between the model and the data, as calculated by the optimization, is:
+The final L1 distance  achieved by the optimization to find these parameters was:
 
-**`0.028902125433324082`**
+**`0.028902`**
 
 ## 4. Explanation of Process and Steps
 
@@ -34,4 +34,4 @@ The primary challenge was that the $t$ value for each $(x, y)$ coordinate was un
 
 ## 5. Submitted Code
 
-The Python script (`script.py`) and the data file (`xy_data.csv`) used to perform this analysis are included in this repository.
+The Python script (`solve.py`) and the data file (`xy_data.csv`) used to perform this analysis are included in this repository.
